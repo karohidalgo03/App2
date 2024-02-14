@@ -10,8 +10,6 @@ export const Pantalla1Screen = ({navigation}:Props) => {
     //console.log(props)
   return (
     <View style={styles.globalMargin}>
-        <Text style={styles.title}>Bienvenido</Text>
-
         <TouchableOpacity style={styles.globalMargin}>
         <Button  
             title='IMAGEN 1'
@@ -19,19 +17,10 @@ export const Pantalla1Screen = ({navigation}:Props) => {
        </TouchableOpacity>
        <TouchableOpacity style={styles.globalMargin}>
        <Button 
-            title='IMAGEN 2'
+            title='Formulario'
             onPress={()=>navigation.navigate('Pantalla3Screen')}/>
        </TouchableOpacity>
-         <TouchableOpacity style={styles.globalMargin}>
-         <Button 
-            title='FORMULARIO # 1'
-            onPress={()=>navigation.navigate('Pantalla4Screen')}/> 
-         </TouchableOpacity>
-         <TouchableOpacity style={styles.globalMargin}>
-         <Button 
-            title='FORMULARIO # 2'
-            onPress={()=>navigation.navigate('Pantalla5Screen')}/> 
-         </TouchableOpacity>
+      
     </View>
   )
 }

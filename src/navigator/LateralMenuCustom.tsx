@@ -28,22 +28,18 @@ const MenuItems=({navigation}:DrawerContentComponentProps)=>{
     <DrawerContentScrollView>
         {/* Menú de imagenes*/}
         <View style={styles.avatarContainer}>
-            <Image
-            source={{
-                uri:'https://previews.123rf.com/images/yupiramos/yupiramos1710/yupiramos171009601/87757497-chica-de-dibujos-animados-con-la-ilustraci%C3%B3n-de-vector-de-trabajo-de-programaci%C3%B3n-port%C3%A1til.jpg'
-            }}
-            style={styles.avatar}/>
+           
         </View>
         {/* Menú de opciones*/}
            <View style={styles.menuContainer}>
             <TouchableOpacity style={styles.menuButton}
             onPress={()=>navigation.navigate('StackNavigation')}>
                 
-                <Text style={styles.menuText}>Navegación</Text>
+                
             </TouchableOpacity>
             <TouchableOpacity style={styles.menuButton}
              onPress={()=>navigation.navigate('SettingsScreen')}>
-                <Text style={styles.menuText}>Ajustes</Text>
+                
             </TouchableOpacity>
            </View>
     </DrawerContentScrollView>

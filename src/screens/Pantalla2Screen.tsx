@@ -14,16 +14,17 @@ export const Pantalla2Screen = () => {
 
   return (
     
+
     <View style={styles.globalMargin}>
-        <Text style={styles.title}>Pantalla 1 Screen</Text>
-        <Text style={styles.title}>IMAGEN 1</Text>
+        <Text style={styles.title}>Bienvenido</Text>
         <Image
             source={{
-                uri:'https://png.pngtree.com/png-clipart/20200701/original/pngtree-children-s-software-programming-png-image_5401259.jpg'
+                uri:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPGF8dO9D41z0uRMDu2VGEW1znKEk7S-1HqAxTnN19VQ&s'
             }}
             style={styles.avatar}/>
     </View>
 
   )
 }
+
 
